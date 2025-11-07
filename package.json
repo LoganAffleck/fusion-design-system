@@ -1,0 +1,78 @@
+{
+  "name": "@fusion/design-system",
+  "version": "0.1.0",
+  "description": "A modern design system inspired by Shadcn/v0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src --ext .ts,.tsx",
+    "type-check": "tsc --noEmit",
+    "postinstall": "patch-package || exit 0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "autoprefixer": "^10.4.19",
+    "patch-package": "^8.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "postcss": "^8.4.39",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss": "^3.4.6",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "react-components",
+    "typescript",
+    "tailwindcss",
+    "tailwind",
+    "shadcn",
+    "ui-components",
+    "component-library",
+    "builder-io",
+    "accessible",
+    "a11y"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/fusion-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/fusion-design-system/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/fusion-design-system#readme"
+}
