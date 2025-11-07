@@ -6,7 +6,7 @@ Thank you for considering contributing to Fusion Design System! 🎉
 
 ### Reporting Bugs
 
-1. Check if the bug has already been reported in [Issues](https://github.com/YOUR_USERNAME/fusion-design-system/issues)
+1. Check if the bug has already been reported in [Issues](https://github.com/LoganAffleck/fusion-design-system/issues)
 2. If not, create a new issue using the Bug Report template
 3. Provide as much detail as possible
 
@@ -62,7 +62,7 @@ Thank you for considering contributing to Fusion Design System! 🎉
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR_USERNAME/fusion-design-system.git
+git clone https://github.com/LoganAffleck/fusion-design-system.git
 cd fusion-design-system
 
 # Install dependencies

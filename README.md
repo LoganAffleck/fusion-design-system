@@ -187,7 +187,7 @@ Contributions welcome! Please open an issue or submit a PR.
 
 ## 🔗 Related Projects
 
-- **[Fusion App](https://github.com/YOUR_USERNAME/fusion-app)** - Next.js app using this design system
+- **[Fusion App](https://github.com/LoganAffleck/fusion-app)** - Next.js app using this design system
 - **[Shadcn/ui](https://ui.shadcn.com/)** - Design inspiration
 
 ---
