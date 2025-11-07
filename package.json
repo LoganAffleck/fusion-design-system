@@ -22,7 +22,8 @@
     "dev": "tsup --watch",
     "lint": "eslint src --ext .ts,.tsx",
     "type-check": "tsc --noEmit",
-    "postinstall": "patch-package || exit 0"
+    "postinstall": "patch-package || exit 0",
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "react": "^18.0.0",
